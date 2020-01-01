@@ -6,7 +6,7 @@ print("-------------------\n")
 #print("1.View list\n2.Add a new vegetable\n3.Change the price of an vegetable\n4.Delete the vegetable\n5.Quit!")
 
 choice=0
-
+#WHILE LOOP STARTS HERE
 while choice != 5 :
     print("1.View list\n2.Add a new vegetable\n3.Change the price of an vegetable\n4.Delete the vegetable\n5.Quit!")
     print("-------------------\n")
@@ -87,6 +87,7 @@ while choice != 5 :
         veg_file.close()
         print("Saving the updated list and exiting..")
         exit()
+        #WHILE LOOP EXITS IF THE CHOICE IS 5
     #CHOICE INVALID TO ITERATE THE WHILE LOOP
     else:
         print("-------------------\n")
